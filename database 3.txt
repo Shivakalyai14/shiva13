@@ -1,0 +1,3 @@
+SELECT employees.id, employees.name, employees.email, departments.department_name 
+FROM employees 
+INNER JOIN departments ON employees.department_id = departments.id;
