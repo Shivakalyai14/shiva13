@@ -1,0 +1,2 @@
+INSERT INTO employees (name, age, email, salary, department) 
+VALUES ('John Doe', 30, 'john@example.com', 50000, 'IT');
